@@ -32,7 +32,7 @@ Extensible for adding new payment providers
 │ ├── Http/
 │ │ ├── Controllers/ # API controllers
 │ ├── Models/ # Eloquent Models
-│ │ └── PaymentGateways/
+│ │ └─ PaymentGateways/
 │ ├── Repositories/ # Data access layer
 │ ├── Services/ # Business logic layer
 │ └── Providers/
