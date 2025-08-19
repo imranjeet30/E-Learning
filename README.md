@@ -2,7 +2,7 @@
 ###########***************** API *****************************###################
 
 📚 E-learning Platform
-
+```plaintext
 It is an E-learning platform , following modern software design principles (Repository Pattern, Service Layer, Dependency Injection, SOLID).
 It allows user registration, course subscriptions, and multiple payment gateways (Stripe, PayPal, Razorpay).
 
