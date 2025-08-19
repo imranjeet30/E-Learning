@@ -25,12 +25,14 @@ Extensible for adding new payment providers
 
 
 🏗️backend/ # Laravel Backend (API)
+## Project Structure
+
+```plaintext
 ├── app/
 │ ├── Http/
 │ │ ├── Controllers/ # API controllers
-│ │ ├── Requests/ # Form requests (validation)
-│ │
 │ ├── Models/ # Eloquent Models
+│ │ └── PaymentGateways/
 │ ├── Repositories/ # Data access layer
 │ ├── Services/ # Business logic layer
 │ └── Providers/
@@ -75,7 +77,6 @@ Supports user authentication, course management, subscriptions, and payments (St
 ---
 
 ## 📂 Project Structure
-
 frontend/ # Vue 3 Frontend
 ├── src/
 │ ├── assets/ # Images, icons, etc.
