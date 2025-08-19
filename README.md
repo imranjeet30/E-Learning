@@ -24,24 +24,23 @@ Extensible for adding new payment providers
 
 
 
-🏗️ Project Structure
-app/
- ├── Http/
- │    ├── Controllers/   # API controllers
- │    ├── Requests/      # Form requests (validation)
- │
- ├── Models/             # Eloquent Models
- │
- ├── Repositories/       # Data access layer
- │
- ├── Services/           # Business logic layer
- │
- └── Providers/
-database/
- ├── migrations/         # Tables (users, courses, subscriptions, payments)
- ├── seeders/            # Dummy data
-routes/
- ├── api.php             # API routes
+🏗️backend/ # Laravel Backend (API)
+├── app/
+│ ├── Http/
+│ │ ├── Controllers/ # API controllers
+│ │ ├── Requests/ # Form requests (validation)
+│ │
+│ ├── Models/ # Eloquent Models
+│ ├── Repositories/ # Data access layer
+│ ├── Services/ # Business logic layer
+│ └── Providers/
+│
+├── database/
+│ ├── migrations/ # Tables (users, courses, subscriptions, payments)
+│ ├── seeders/ # Dummy data
+│
+├── routes/
+│ └── api.php # API routes
 
 
 
@@ -77,14 +76,15 @@ Supports user authentication, course management, subscriptions, and payments (St
 
 ## 📂 Project Structure
 
-── frontend/                      # Vue 3 Frontend
-│   ├── src/
-│   │   ├── assets/                # Images, icons, etc.
-│   │   ├── components/            # Vue components (Navbar, Footer, etc.)
-│   │   ├── pages/                 # Views (CoursesPage, LoginPage, etc)
-│   │   ├── store/                 # Pinia stores (userStore, courseStore)
-│   │   ├── router/                # Vue Router (routes.js)
-│   │   ├── App.vue
-│   │   └── main.js
-│   ├── package.json
-│   └── vite.config.js
+frontend/ # Vue 3 Frontend
+├── src/
+│ ├── assets/ # Images, icons, etc.
+│ ├── components/ # Vue components (Navbar, Footer, etc.)
+│ ├── pages/ # Views (CoursesPage, LoginPage, etc.)
+│ ├── store/ # Pinia stores (userStore, courseStore)
+│ ├── router/ # Vue Router (routes.js)
+│ ├── App.vue
+│ └── main.js
+│
+├── package.json
+└── vite.config.js
