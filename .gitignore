@@ -1,0 +1,10 @@
+# Ignore node_modules inside FE
+E-Learning-FE/node_modules/
+
+# Ignore vendor inside Backend
+E-Learning-backend/vendor/
+
+# Ignore environment files
+E-Learning-backend/.env
+E-Learning-FE/.env
+.env
