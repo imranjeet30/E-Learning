@@ -1,0 +1,11 @@
+/* minimal styles; replace with Tailwind if you like */
+:root { --gap: 12px; --primary: #0ea5e9; }
+* { box-sizing: border-box; }
+body { margin:0; font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial; background:#fafafa; }
+a { color: var(--primary); text-decoration: none; }
+.container { max-width: 1000px; margin: 0 auto; padding: 24px; }
+.btn { padding: 10px 14px; border-radius: 8px; border: 1px solid #e5e7eb; background:#fff; cursor:pointer; }
+.btn.primary { background: var(--primary); color:#fff; border-color: transparent; }
+.input { width:100%; padding:10px; border:1px solid #e5e7eb; border-radius:8px; }
+.card { background:#fff; border:1px solid #e5e7eb; border-radius:12px; padding:16px; }
+.grid { display:grid; gap: var(--gap); }
